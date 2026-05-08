@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NOVAXIS | Coming Soon</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      font-family: 'Poppins', sans-serif;
+      background: #050816;
+      overflow-x: hidden;
+    }
+
+    .glow{
+      box-shadow: 0 0 25px rgba(99,102,241,0.5);
+    }
+
+    .gradient-text{
+      background: linear-gradient(to right,#60a5fa,#a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .glass{
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .fade-in{
+      animation: fade 1.2s ease-in-out;
+    }
+
+    @keyframes fade{
+      from{
+        opacity:0;
+        transform: translateY(20px);
+      }
+      to{
+        opacity:1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body class="text-white">
+
+  <!-- Background Glow -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-blue-500 rounded-full blur-[140px] opacity-20"></div>
+  <div class="absolute bottom-0 right-0 w-72 h-72 bg-purple-500 rounded-full blur-[140px] opacity-20"></div>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center px-6 relative">
+    <div class="max-w-5xl text-center fade-in">
+
+      <h1 class="text-6xl md:text-8xl font-bold tracking-widest mb-6">
+        NOVA<span class="gradient-text">XIS</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-gray-300 mb-4">
+        Engineer Your Intelligence.
+      </p>
+
+      <p class="max-w-2xl mx-auto text-gray-400 text-lg leading-relaxed mb-10">
+        Learn AI. Build AI. Solve real-world problems with a futuristic
+        no-code AI platform designed for creators, students, and innovators.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button class="px-16 py-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 font-semibold glow hover:scale-105 transition duration-300 <B>">
+          Coming Soon
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+      <div class="fade-in">
+        <h2 class="text-4xl font-bold mb-6">
+          Our <span class="gradient-text">Story</span>
+        </h2>
+
+        <p class="text-gray-400 leading-relaxed text-lg">
+          I am <span class="text-white font-semibold">Atharv Gupta</span>,
+          a Grade 9 student of Gyanshree School, Noida.
+          NOVAXIS was created with one mission — making Artificial Intelligence
+          accessible to everyone. We believe AI should not only be used by
+          developers and engineers, but also by students, creators, and
+          dreamers who want to solve real-world problems.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-8 glow fade-in">
+        <div class="space-y-6">
+
+          <div>
+            <h3 class="text-xl font-semibold gradient-text">
+              Learn AI
+            </h3>
+            <p class="text-gray-400 mt-2">
+              Step-by-step AI learning made simple for beginners.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold gradient-text">
+              Build AI Tools
+            </h3>
+            <p class="text-gray-400 mt-2">
+              Create AI-powered solutions without coding.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold gradient-text">
+              AI Mentor
+            </h3>
+            <p class="text-gray-400 mt-2">
+              Get guided support while building your own projects.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+
+      <h2 class="text-4xl font-bold mb-14">
+        Why <span class="gradient-text">NOVAXIS?</span>
+      </h2>
+
+      <div class="grid md:grid-cols-4 gap-8">
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300">
+          <div class="text-5xl mb-4">🚀</div>
+          <h3 class="text-xl font-semibold mb-2">Beginner Friendly</h3>
+          <p class="text-gray-400 text-sm">
+            Designed for students and first-time AI creators.
+          </p>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300">
+          <div class="text-5xl mb-4">🧠</div>
+          <h3 class="text-xl font-semibold mb-2">No Coding</h3>
+          <p class="text-gray-400 text-sm">
+            Build AI solutions with drag-and-drop simplicity.
+          </p>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300">
+          <div class="text-5xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold mb-2">AI Workflow</h3>
+          <p class="text-gray-400 text-sm">
+            Turn problems into intelligent AI solutions.
+          </p>
+        </div>
+
+        <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition duration-300">
+          <div class="text-5xl mb-4">🎯</div>
+          <h3 class="text-xl font-semibold mb-2">Personalized Learning</h3>
+          <p class="text-gray-400 text-sm">
+            Learn and build at your own pace.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="py-20 px-6">
+    <div class="max-w-3xl mx-auto glass rounded-3xl p-10 text-center glow fade-in">
+
+      <h2 class="text-4xl font-bold mb-4">
+        Join Before Launch
+      </h2>
+
+      <p class="text-gray-400 mb-8">
+        Subscribe to get early access and updates from NOVAXIS.
+      </p>
+
+      <form class="flex flex-col sm:flex-row gap-4">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="flex-1 px-6 py-4 rounded-full bg-black/30 border border-gray-700 outline-none focus:border-purple-500"
+        />
+
+        <button
+          class="px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 font-semibold hover:scale-105 transition duration-300 glow">
+          Notify Me
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-10 px-6">
+    <div class="max-w-4xl mx-auto glass rounded-2xl p-6">
+
+      <div class="grid md:grid-cols-3 gap-6 text-center">
+
+        <!-- Email -->
+        <div>
+          <div class="text-2xl mb-2">📧</div>
+          <h3 class="font-semibold text-white">Email</h3>
+          <p class="text-gray-400 text-sm break-words">
+            AtharvGupat3012.it@gmail.com
+          </p>
+        </div>
+
+        <!-- Website -->
+        <div>
+          <div class="text-2xl mb-2">🌐</div>
+          <h3 class="font-semibold text-white">Website</h3>
+          <p class="text-gray-400 text-sm">
+            www.novaxis.ai
+          </p>
+        </div>
+
+        <!-- Call -->
+        <div>
+          <div class="text-2xl mb-2">📞</div>
+          <h3 class="font-semibold text-white">Call</h3>
+          <p class="text-gray-400 text-sm">
+            +91 9886924131
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center border-t border-white/10">
+    <p class="text-gray-500">
+      Empowering the Next Generation of AI Creators.
+    </p>
+  </footer>
+
+</body>
+</html>
